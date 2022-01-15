@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   ${
-    "" /* this is an active class here, basiucally marking the active link in green color */
+    "" /* this is an active class here, basically marking the active link in green color */
   }
   &.active {
     border-bottom: 3px solid #01bf71;
