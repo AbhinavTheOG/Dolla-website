@@ -21,9 +21,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="Home">
       <HeroBg>
-        <VideoBg autoPlay loop muted>
-          <source src={Video} type="video/mp4" />
-        </VideoBg>
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Welcome to my portfolio</HeroH1>
@@ -31,7 +29,13 @@ const HeroSection = () => {
           I am computer science graduate from university of vicotria
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary
+            dark
+          >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
