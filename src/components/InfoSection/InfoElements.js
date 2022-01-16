@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
-
   @media screen and (min-width: 768px) {
     padding: 100px 0;
   }
@@ -17,7 +16,7 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px 0 0;
+  padding: 0 24px;
   justify-content: center;
 `;
 
@@ -43,7 +42,7 @@ export const Column1 = styled.div`
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
-  grid-area: col1;
+  grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
@@ -67,10 +66,10 @@ export const Heading = styled.div`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: {({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
   @media screen and (min-width: 480px) {
-      font-size: 32px;
+    font-size: 32px;
   }
 `;
 
@@ -92,7 +91,7 @@ export const ImgWrap = styled.div`
   height: 100%;
 `;
 
-export const Img = styled.div`
+export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
