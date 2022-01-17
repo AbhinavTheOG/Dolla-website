@@ -9,7 +9,7 @@ export const homeObjOne = {
     "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees",
   buttonLabel: "Get Started",
   imgStart: false,
-  img: require("../../images/svg-4.jpg"),
+  img: require("../../images/svg-1.png"),
   alt: "Car",
   dark: true,
   primary: true,
@@ -27,11 +27,11 @@ export const homeObjTwo = {
     "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.",
   buttonLabel: "Get Started",
   imgStart: true,
-  img: require("../../images/svg-4.jpg"),
+  img: require("../../images/svg-6.png"),
   alt: "Car",
   dark: true,
   primary: true,
-  darkText: false,
+  darkText: true,
 };
 
 export const homeObjThree = {
@@ -45,9 +45,10 @@ export const homeObjThree = {
     "Get everything set and ready in under 10 minutes. All you need to do is add your information and you're ready to go",
   buttonLabel: "Get Started",
   imgStart: false,
-  img: require("../../images/svg-4.jpg"),
+  img: require("../../images/svg-4.png"),
   alt: "Car",
   dark: true,
-  primary: false,
+  primary: true,
   darkText: true,
+  dark2: true,
 };
