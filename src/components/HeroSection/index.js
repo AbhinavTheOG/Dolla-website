@@ -24,9 +24,10 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Welcome to my portfolio</HeroH1>
+        <HeroH1>Virtual Banking Made Easy</HeroH1>
         <HeroP>
-          I am computer science graduate from university of vicotria
+          Sign up for a new account today and receive $250 in credit towards
+          your next payment!
         </HeroP>
         <HeroBtnWrapper>
           <Button
